@@ -1,0 +1,369 @@
+body
+{
+    overflow: auto;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+div
+{
+    display: block;
+}
+
+/*First Section & Fixed Navigation Bar */
+.clearfix
+{
+    clear: both;
+}
+.hero-page
+{
+    background-image: url('images/drew-coffman-1872.jpg');
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: auto;
+}
+.nav-bar
+{
+    overflow: auto;
+    height: 50px;
+    margin: 20px;  
+}
+.nav-img
+{
+    float: left;
+    margin:10px;
+}
+.nav-img img
+{
+    width: 30%;
+}
+.nav-content
+{
+    float: right;
+    font-size: 20px;
+    margin:10px;
+    color: white;
+}
+.nav-content-span
+{
+    margin: 0px 10px;
+    float: left;
+}
+.hero-page-content
+{
+    margin: 200px auto;
+    text-align: center;
+    width: 90% ;
+    font-weight: bold;
+    color: white;
+    font-family:Alegreya;
+    
+}
+.hero-page-content h3
+{
+    padding: 15px;
+    font-size: 25px;
+}
+.hero-page-content h1
+{
+    padding: 15px;  
+    font-size: 50px;
+}
+.hero-page-content p
+{
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.hero-buttons
+{
+    padding: 10px;
+}
+.btn
+{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 5%;
+    color: white;
+}
+.btn1
+{
+    border: none;
+    background-color:#8e7754;
+}
+.btn2
+{
+    background-color: transparent;
+    border-color:white; 
+}
+.hero-zero
+{
+    margin:0px auto 10px;
+    font-size: 100px;
+    border: white 2px solid;
+    border-radius: 46%;
+    width: 30px;
+    height: 50px;
+}
+
+/*About Section Decoration */
+.about-container
+{
+    width: 90%;
+    margin: 40px auto 40px;
+    padding: 40px 0px;
+    
+}
+.about-img
+{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.about-img img
+{
+    width: 95%;
+
+}
+.about-content
+{
+    width: 35%;
+    float: left;
+    padding: 50px;
+    margin: 25px;
+}
+.about-content h2
+{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #303030;
+}
+.about-content p
+{
+    font-size: 18px;
+    color: #686868;
+    margin-bottom: 30px;
+}
+.about-list
+{
+    padding-left: 10px;
+   
+}
+.about-list-pic
+{
+    width: 10%;
+    float: left;
+}
+.about-list-pic img
+{
+    width: 100%;
+    border-radius: 50%;
+}
+.about-list-explain 
+{
+    width: 80%;
+    margin-top: 20px;
+    line-height: 35px;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+/*Location Section Decoration */
+.location-body
+{
+    background-color: #f8f8f8;
+    padding: 50px 0px;
+}
+
+.location-container
+{
+    width: 90%;
+    margin: auto;
+}
+.location-subcontainer
+{
+    width: 50%;
+    float: left;
+}
+.location-subcontainer img
+{
+    width: 100%;
+}
+.location-subcontainer-h
+{
+    margin:100px 0px 40px;
+}
+.location-subcontainer-h h2
+{
+    font-size: 32px;
+    color: #303030;
+}
+.location-subcontainer-p p
+{
+    font-size: 17px;
+    color: #686868;
+    margin-right: 30px;
+}
+
+/*Our Baking Section Decoration */
+.our-baking-section
+{
+    margin: 50px 40px;
+    text-align: center;
+    padding: 40px 0px;
+}
+.our-baking-members
+{
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+.our-baking-members img
+{
+    width: 90%;
+}
+.our-baking-section h2
+{
+    color: #303030;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.our-baking-section p
+{
+    color: #686868;
+}
+.our-baking-members h3
+{
+    margin: 20px 0px;
+    color: #303030;
+}
+.our-baking-members p
+{
+    margin: 0px 20px;
+}
+
+/*Contact Section Decoration */
+.contact-body
+{
+    background-color: #f8f8f8;
+    padding: 50px 0px;
+}
+.contact-section
+{
+    width: 95%;
+    margin: auto;
+}
+.contact-members
+{
+    width: 50%;
+    float: left;
+}
+.contact-head-explain
+{
+    margin: 30px;
+}
+.contact-head-explain h2
+{
+    margin: 40px 0px 30px;
+    font-size: 32px;
+    color: #303030;
+}
+.contact-head-explain p
+{
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+}
+.contact-members iframe
+{
+    width: 90%;
+    margin-left: 25px;
+}
+.cotact-list
+{
+    margin: 10px;
+}
+.cotact-list ul
+{
+    list-style: none;
+}
+.viper-p
+{
+    margin:0px 10px;
+    line-height: 36px;
+    color:#686868 ;
+    
+}
+.cotact-list img
+{
+    width: 6%;
+    border-radius: 50%;
+}
+
+/*Footer Section Decoration*/
+.footer-container
+{
+    background-color: #403d38;
+    overflow: auto;
+}
+.inner
+{
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+.footer-contains
+{
+    width: 25%;
+    float: left;
+}
+.footer-contains h3
+{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.footer-contains p
+{
+    color: #969696;
+    font-size: 16px;
+}
+.footer-img
+{
+    background-image: url('images/contact-details-map.png');
+    width: 100%;
+}
+.footer-img img
+{
+    width: 5%;
+}
+.footer-line
+{
+    height: 0.25px;
+    background-color: #969696;
+    margin: 15px;
+    width: 80%;
+}
+.end-container
+{
+    background-color: #353330;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+.end-container p
+{
+    margin: 30px;
+}
+
+
+
+
+
